@@ -1,0 +1,18 @@
+
+
+                The computer network architecture is divided into 5 layers: application, transport, network, link and physical layer according to the Internet protocol stack.
+
+                MAC address, IP address and port addresses are used in link, network and transport layer respectively.
+
+               The MAC address is the physical address of your device (such as network interface card). 
+               It is fixed and each device in the world has a unique MAC address.
+               This address is used to transmit your data between 2 nodes in the network.
+
+               The IP address, unlike MAC address, can be changed. 
+               For example, each time you access the network, your device will be assigned a new IP address by the server via DHCP (dynamic host configuration protocol).
+               This address is used to route your data through the network from the source computing device to the desired destination.
+
+               Finally, the port number is used to guide the data to the right process running on your computer. 
+               For example, your computer is running 2 processes: 
+               1 is email and the other is web browser and these 2 processes has two different port numbers. 
+               When a data packet arrives at your computer, the port number is checked to forward this to the right process.
